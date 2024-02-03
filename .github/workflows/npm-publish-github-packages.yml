@@ -17,6 +17,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
+      - runs-on: self-hosted
 
   publish-gpr:
     needs: build
@@ -32,5 +33,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm publish
+      - runs-on: self-hosted
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
