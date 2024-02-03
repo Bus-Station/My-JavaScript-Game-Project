@@ -23,4 +23,4 @@ cd My-JavaScript-Game-Project
 npm start
 ```
 
-Your app should now be running on localhost:5000.
+Your app should now be running on localhost🔢3000.
