@@ -18,8 +18,13 @@ npm install
 ```
 
 After that do
-```git clone [git@github.com:heroku/node-js-sample.git # or clone your own for](https://github.com/Bus-Station/My-JavaScript-Game-Project.git)k
+```
+git clone [git@github.com:heroku/node-js-sample.git # or clone your own for](https://github.com/Bus-Station/My-JavaScript-Game-Project.git)k
+```
+```
 cd My-JavaScript-Game-Project
+```
+```
 npm start
 ```
 
